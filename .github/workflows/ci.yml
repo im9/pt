@@ -24,11 +24,11 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: yarn build
+        run: yarn build --base=./
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          folder: docs
+          publish_dir: ./docs
