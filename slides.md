@@ -8,7 +8,7 @@
 - 埼玉県出身
 - 1981 年生まれ
 
-![me](/images/me.png "me")
+![me](/me.png "me")
 
 Notes: Remmeber to say something funny here...
 
