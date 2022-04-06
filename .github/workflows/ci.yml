@@ -1,11 +1,6 @@
-name: Build and deploy
-
-env:
-  YARN_CACHE_FOLDER: .cache/yarn
-
 on:
   push:
-    branches: [ main ]
+    branches: [ me ]
 
 jobs:
   build:
